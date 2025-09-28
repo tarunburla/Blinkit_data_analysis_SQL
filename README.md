@@ -60,6 +60,7 @@ This project answers:
 
 ## Project Structure
 
+```
 
 blinkit-sql-analysis/
 │
@@ -74,6 +75,8 @@ blinkit-sql-analysis/
 ├── outputs/ # Query results / screenshots
 │ └── sales_analysis.png
 
+
+```
 
 ---
 
@@ -143,6 +146,6 @@ They include:
 
 ## Author & Contact
 **Tarun Burla**  
-*Data Analyst | SQL Enthusiast | Business Intelligence*  
+*Data Analyst | Business Intelligence*  
 📧 Email: [tarunburla1234@gmail.com]  
 🔗 LinkedIn | 🔗 Portfolio  

@@ -5,23 +5,25 @@ This project analyzes **Blinkit (Zepto) retail sales data** using SQL, uncoverin
 The queries address **data cleaning, KPIs, and advanced granular analysis**, helping to identify **top product lines, outlet trends, and sales distribution**.
 
 ---
-## 📌 Table of Contents
-1. [Overview](#overview)  
-2. [Business Problem](#business-problem)  
-3. [Dataset](#dataset)  
-4. [Tools & Technologies](#tools--technologies)  
-5. [Project Structure](#project-structure)  
-6. [Data Cleaning & Preparation](#data-cleaning--preparation)   
-7. [Research Questions & Key Findings](#research-questions--key-findings)  
-8. [SQL Query Book](#sql-query-book)  
-9. [How to Run This Project](#how-to-run-this-project)  
-10. [Final Recommendations](#final-recommendations)  
-11. [Author & Contact](#author--contact)  
 
+## 📌 Table of Contents
+
+* <a href="#overview">Overview</a>
+* <a href="#business-problem">Business Problem</a>
+* <a href="#dataset">Dataset</a>
+* <a href="#tools--technologies">Tools & Technologies</a>
+* <a href="#project-structure">Project Structure</a>
+* <a href="#data-cleaning--preparation">Data Cleaning & Preparation</a>
+* <a href="#exploratory-data-analysis-eda">Exploratory Data Analysis (EDA)</a>
+* <a href="#research-questions--key-findings">Research Questions & Key Findings</a>
+* <a href="#sql-query-book">SQL Query Book</a>
+* <a href="#how-to-run-this-project">How to Run This Project</a>
+* <a href="#final-recommendations">Final Recommendations</a>
+* <a href="#author--contact">Author & Contact</a>
 
 ---
 
-## 📖 Overview
+## Overview
 This project analyzes **Blinkit (Zepto) grocery sales data** with SQL queries to explore:  
 - ✅ Impact of **item fat content** on sales  
 - ✅ Performance of **different item types**  
@@ -30,7 +32,7 @@ This project analyzes **Blinkit (Zepto) grocery sales data** with SQL queries to
 
 ---
 
-## 🎯 Business Problem
+## Business Problem
 Retail businesses must understand **product performance, customer choices, and outlet efficiency** to improve profitability.  
 
 This project answers:  
@@ -41,7 +43,7 @@ This project answers:
 
 ---
 
-## 📊 Dataset
+## Dataset
 - **Source**: Blinkit (Zepto) Retail Dataset  
 - **Attributes**:  
   `Item_Identifier, Item_Weight, Item_Fat_Content, Item_Type, Outlet_Identifier, Outlet_Size, Outlet_Location_Type, Outlet_Establishment_Year, Sales, Rating`  
@@ -49,16 +51,16 @@ This project answers:
 
 ---
 
-## 🛠 Tools & Technologies
+## Tools & Technologies
 - **SQL Server / MySQL** → Query execution  
 - **GitHub** → Version control & documentation  
 - **Excel / CSV** → Raw dataset storage  
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
-```
+
 blinkit-sql-analysis/
 │
 ├── README.md
@@ -70,13 +72,12 @@ blinkit-sql-analysis/
 │ └── blinkit_analysis_queries.sql
 │
 ├── outputs/ # Query results / screenshots
-│ └── sales_analysis.png 
+│ └── sales_analysis.png
 
-```
 
 ---
 
-## 🧹 Data Cleaning & Preparation
+## Data Cleaning & Preparation
 - ✅ Standardized `Item_Fat_Content` values (`Low Fat`, `Regular`)  
 - ✅ Checked for **nulls & duplicates**  
 - ✅ Converted sales values into **millions (2 decimals)**  
@@ -84,7 +85,7 @@ blinkit-sql-analysis/
 
 ---
 
-## 🔎 Exploratory Data Analysis (EDA)
+## Exploratory Data Analysis (EDA)
 The queries focus on:  
 - **Sales distribution** by item type, fat content, and outlet  
 - **KPI metrics** like total sales, average sales, average rating  
@@ -93,7 +94,7 @@ The queries focus on:
 
 ---
 
-## ❓ Research Questions & Key Findings
+## Research Questions & Key Findings
 1. **What is the impact of fat content on sales?**  
    → Regular items generate higher sales than Low Fat.  
 
@@ -114,7 +115,7 @@ The queries focus on:
 
 ---
 
-## 📘 SQL Query Book
+## SQL Query Book
 All queries are stored in [`blinkit_analysis_queries.sql`](queries/blinkit_analysis_queries.sql).  
 They include:
 - Data cleaning queries  
@@ -124,7 +125,7 @@ They include:
 
 ---
 
-## ▶️ How to Run This Project
+## How to Run This Project
 1. Import `blinkit_data.csv` into your SQL database.  
 2. Run the queries in `blinkit_analysis_queries.sql`.  
 3. Export results as tables or charts.  
@@ -132,7 +133,7 @@ They include:
 
 ---
 
-## ✅ Final Recommendations
+## Final Recommendations
 - Expand **Regular Fat product line** (higher sales contribution).  
 - Boost **underperforming item types** with promotions.  
 - Invest more in **large outlets** (highest revenue share).  
@@ -140,9 +141,8 @@ They include:
 
 ---
 
-## 👤 Author & Contact
+## Author & Contact
 **Tarun Burla**  
 *Data Analyst | SQL Enthusiast | Business Intelligence*  
 📧 Email: [tarunburla1234@gmail.com]  
 🔗 LinkedIn | 🔗 Portfolio  
-

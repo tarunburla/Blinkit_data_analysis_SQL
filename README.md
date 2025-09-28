@@ -124,7 +124,8 @@ The queries focus on:
 ---
 
 ## SQL Query Book
-All queries are stored in [`blinkit_analysis_queries.sql`]([queries/blinkit_analysis_queries.sql](https://github.com/tarunburla/Blinkit_data_analysis_SQL/blob/main/blinkit_analysis_solutions.sql)). 
+All queries are stored in [[`blinkit_analysis_queries.sql`]([queries/blinkit_analysis_queries.sql](https://github.com/tarunburla/Blinkit_data_analysis_SQL/blob/main/blinkit_analysis_solutions.sql)). 
+](https://github.com/tarunburla/Blinkit_data_analysis_SQL/blob/main/blinkit_analysis_solutions.sql)
 
 They include:
 - Data cleaning queries  

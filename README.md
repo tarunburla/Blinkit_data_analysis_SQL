@@ -1,7 +1,10 @@
-# 🛒 Blinkit (Zepto) Retail Data Analysis  
+# 🛒 Blinkit Retail Data Analysis  
+
+<img width="2000" height="2000" alt="blinkit-seeklogo" src="https://github.com/user-attachments/assets/60113c71-043d-40d3-8b0b-712b02b9667f" />
+
 **SQL Query Project**
 
-This project analyzes **Blinkit (Zepto) retail sales data** using SQL, uncovering key insights on **sales performance, outlet behavior, and product categories**.  
+This project analyzes **Blinkit retail sales data** using SQL, uncovering key insights on **sales performance, outlet behavior, and product categories**.  
 The queries address **data cleaning, KPIs, and advanced granular analysis**, helping to identify **top product lines, outlet trends, and sales distribution**.
 
 ---
@@ -24,7 +27,7 @@ The queries address **data cleaning, KPIs, and advanced granular analysis**, hel
 ---
 
 ## Overview
-This project analyzes **Blinkit (Zepto) grocery sales data** with SQL queries to explore:  
+This project analyzes **Blinkit grocery sales data** with SQL queries to explore:  
 - ✅ Impact of **item fat content** on sales  
 - ✅ Performance of **different item types**  
 - ✅ **Outlet-level sales** patterns (location, establishment year, size)  
@@ -44,7 +47,7 @@ This project answers:
 ---
 
 ## Dataset
-- **Source**: Blinkit (Zepto) Retail Dataset  
+- **Source**: Blinkit Retail Dataset  
 - **Attributes**:  
   `Item_Identifier, Item_Weight, Item_Fat_Content, Item_Type, Outlet_Identifier, Outlet_Size, Outlet_Location_Type, Outlet_Establishment_Year, Sales, Rating`  
 - **Size**: ~8,500 records  
@@ -119,7 +122,8 @@ The queries focus on:
 ---
 
 ## SQL Query Book
-All queries are stored in [`blinkit_analysis_queries.sql`](queries/blinkit_analysis_queries.sql).  
+All queries are stored in [`blinkit_analysis_queries.sql`]([queries/blinkit_analysis_queries.sql](https://github.com/tarunburla/Blinkit_data_analysis_SQL/blob/main/blinkit_analysis_solutions.sql)). 
+
 They include:
 - Data cleaning queries  
 - KPI calculations (Total, Average Sales)  

@@ -5,20 +5,19 @@ This project analyzes **Blinkit (Zepto) retail sales data** using SQL, uncoverin
 The queries address **data cleaning, KPIs, and advanced granular analysis**, helping to identify **top product lines, outlet trends, and sales distribution**.
 
 ---
-
 ## 📌 Table of Contents
 1. [Overview](#overview)  
 2. [Business Problem](#business-problem)  
 3. [Dataset](#dataset)  
 4. [Tools & Technologies](#tools--technologies)  
 5. [Project Structure](#project-structure)  
-6. [Data Cleaning & Preparation](#data-cleaning--preparation)  
-7. [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)  
-8. [Research Questions & Key Findings](#research-questions--key-findings)  
-9. [SQL Query Book](#sql-query-book)  
-10. [How to Run This Project](#how-to-run-this-project)  
-11. [Final Recommendations](#final-recommendations)  
-12. [Author & Contact](#author--contact)  
+6. [Data Cleaning & Preparation](#data-cleaning--preparation)   
+7. [Research Questions & Key Findings](#research-questions--key-findings)  
+8. [SQL Query Book](#sql-query-book)  
+9. [How to Run This Project](#how-to-run-this-project)  
+10. [Final Recommendations](#final-recommendations)  
+11. [Author & Contact](#author--contact)  
+
 
 ---
 
@@ -58,7 +57,8 @@ This project answers:
 ---
 
 ## 📂 Project Structure
-''' 
+
+```
 blinkit-sql-analysis/
 │
 ├── README.md
@@ -71,7 +71,8 @@ blinkit-sql-analysis/
 │
 ├── outputs/ # Query results / screenshots
 │ └── sales_analysis.png 
-'''
+
+```
 
 ---
 

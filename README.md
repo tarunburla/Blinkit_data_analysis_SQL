@@ -1,6 +1,6 @@
 # 🛒 Blinkit Retail Data Analysis  
 
-<img width="1500" height="1500" alt="blinkit-seeklogo" src="https://github.com/user-attachments/assets/60113c71-043d-40d3-8b0b-712b02b9667f" />
+<img width="720" height="500" alt="blinkit-seeklogo" src="https://github.com/user-attachments/assets/60113c71-043d-40d3-8b0b-712b02b9667f" />
 
 **SQL Query Project**
 
